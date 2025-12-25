@@ -1,0 +1,51 @@
+# Black Box System for Two-Wheelers
+
+## Overview
+This project presents a low-cost Black Box System designed for two-wheelers to improve road safety.
+It detects accidents, records sensor data, captures images, and sends real-time emergency alerts.
+
+## Features
+- Accident detection using MPU6050
+- GPS tracking with NEO-6M
+- Emergency SMS alerts via SIM800L
+- Alcohol detection using MQ-3
+- Image capture using ESP32-CAM
+- Environmental monitoring using DHT22
+
+## Hardware Used
+- ESP32-CAM (OV2640)
+- Arduino UNO
+- MPU6050
+- NEO-6M GPS
+- MQ-3 Alcohol Sensor
+- DHT22
+- MAX4466 Microphone
+- SIM800L GSM Module
+- Relay Module
+
+## Software Tools
+- Arduino IDE
+- EasyEDA
+- Fritzing
+- Fusion 360
+
+## Working
+The system continuously monitors sensor data. If an accident is detected, it captures images,
+records data, and sends an emergency SMS with GPS location.
+
+## Future Scope
+- PCB fabrication
+- Mobile app integration
+- AI-based crash detection
+- Cloud data storage
+
+## Team Members
+- Aryan Ranadive
+- Shravani Babar
+- Aryan Wagh
+- Pranali Bable
+- Yash Baheti
+- Krishna Bambale
+
+## Guide
+Prof. Ganesh Shelke
